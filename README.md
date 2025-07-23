@@ -1,7 +1,7 @@
 # A simple MERN stack application 
 
-##  Create a network for the docker containers
-### It will create a network called demo..Later we use containers to be in that network
+##  Create a network for the docker containers <br>
+
 `docker network create demo`
 
 
@@ -36,7 +36,9 @@ docker build -t mern-backend .
 
 `docker run --name=backend --network=demo -d -p 5050:5050 mern-backend`
 
-## Using Docker Compose
+<br>
+
+# Instead of Doing the above all , we can just use one command to do all of those that is Docker Compose
 
 `docker compose up -d`
 
