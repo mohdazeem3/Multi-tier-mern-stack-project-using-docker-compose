@@ -41,3 +41,15 @@ docker build -t mern-backend .
 `docker compose up -d`
 
 ### Finally we have created Three tier application into containers and merge them in a network using docker compose!
+
+
+
+
+## Got any Problem! no worries
+
+## 1. If you do these all in EC2 instance, Make sure you configured Inbound rules in aws console
+```
+     {
+        Go to EC2 -> Security Groups -> add inbound traffic for the above ports!
+     }
+```
